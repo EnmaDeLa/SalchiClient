@@ -1,5 +1,5 @@
 /**
- * Codigos de color
+ * Color codes
  */
 export const BLACK = '&0';
 export const DARK_BLUE = '&1';
@@ -33,3 +33,16 @@ export const RESET = '&r';
  */
 export const UWU = new Sound({source: "uwu.ogg"});
 export const MAMAAA = new Sound({source: "mamaaa.ogg"});
+
+/**
+ * SalchiClient setting constants.
+ */
+const metadata = JSON.parse(FileLib.read("SalchiClient", "metadata.json"));
+
+export const HEADER =
+    `
+${GOLD}${BOLD}SalchiClient ${metadata.version}
+${WHITE}Made By ${metadata.creator}
+`;
+export const LOGO = `${GRAY}[${GOLD}SalchiClient${GRAY}]`;
+export const GUI_INSTRUCT = "Use +/- to change scale or press R to reset";
