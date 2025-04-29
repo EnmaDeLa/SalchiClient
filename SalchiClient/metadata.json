@@ -1,7 +1,8 @@
 {
-  "name": "SalchiClient",
+  "name": "Salchiclient",
+  "author": "Salchipapita_",
   "creator": "Salchipapita_",
-  "description": "Aprendiendo :P",
-  "version": "0.0.2",
-  "entry": "index.js"
+  "description": "Doy mi vida por los gatos :3",
+  "entry": "index.js",
+  "version": "0.0.1"
 }
